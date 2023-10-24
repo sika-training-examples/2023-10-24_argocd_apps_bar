@@ -9,7 +9,7 @@ spec:
   destination:
     namespace: bar
     server: https://kubernetes.default.svc
-  project: default
+  project: bar
   syncPolicy:
     automated:
       prune: true
